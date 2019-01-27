@@ -140,6 +140,14 @@
 	</dependencies>
 	<build>
 		<finalName>pages</finalName>
+		
+		<plugins>
+			 <plugin>
+  				<groupId>org.codehaus.cargo</groupId>
+  				<artifactId>cargo-maven2-plugin</artifactId>
+  				<version>1.2.0</version>
+  			</plugin> 
+		</plugins>
 	</build>
 	<artifactId>registration</artifactId>
 </project>
