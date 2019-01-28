@@ -158,29 +158,28 @@
     			</plugin>
 			
 			<plugin>
-  <groupId>org.codehaus.cargo</groupId>
-  <artifactId>cargo-maven2-plugin</artifactId>
-  <version>1.2.0</version>
-  <configuration>
-    <container>
-      <containerId>jboss51x</containerId>
-      <home>E:\jboss-5.1.0.GA</home>
-       <timeout>600000</timeout>
-        <append>false</append>
-    </container>
-    <configuration>
-      <type>existing</type>
-      <home>E:\jboss-5.1.0.GA\server\default</home>
-      <properties>
-       <cargo.servlet.port>8090</cargo.servlet.port>
-       <cargo.jboss.configuration>default</cargo.jboss.configuration>
-        <cargo.hostname>localhost</cargo.hostname>
-        <cargo.rmi.port>1099</cargo.rmi.port>
-      </properties>
-    </configuration>
-  </configuration>
-
-  </plugin> 
+  				<groupId>org.codehaus.cargo</groupId>
+  				<artifactId>cargo-maven2-plugin</artifactId>
+  				<version>1.2.0</version>
+  				<configuration>
+    					<container>
+      						<containerId>jboss71x</containerId>
+      						<home>C:\Users\Ashish Kumar\Desktop\Servers\UAT_Server\jboss-eap-7.1</home>
+       						<timeout>600000</timeout>
+        					<append>false</append>
+    					</container>
+    					<configuration>
+      						<type>existing</type>
+      						<home>C:\Users\Ashish Kumar\Desktop\Servers\UAT_Server\jboss-eap-7.1\bin</home>
+      						<properties>
+       							<cargo.servlet.port>8090</cargo.servlet.port>
+       							<cargo.jboss.configuration>default</cargo.jboss.configuration>
+        						<cargo.hostname>192.168.0.60</cargo.hostname>
+        						<cargo.rmi.port>1099</cargo.rmi.port>
+      						</properties>
+    					</configuration>
+  				</configuration>
+  			</plugin> 
 		</plugins>
 	</build>
 	<artifactId>registration</artifactId>
