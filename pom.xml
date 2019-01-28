@@ -170,7 +170,7 @@
     					</container>
     					<configuration>
       						<type>existing</type>
-      						<home>C:\Users\Ashish Kumar\Desktop\Servers\UAT_Server\jboss-eap-7.1\bin</home>
+      						<home>C:\Users\Ashish Kumar\Desktop\Servers\UAT_Server\jboss-eap-7.1\standalone</home>
       						<properties>
        							<cargo.servlet.port>8090</cargo.servlet.port>
        							<cargo.jboss.configuration>default</cargo.jboss.configuration>
